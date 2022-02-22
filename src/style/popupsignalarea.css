@@ -1,0 +1,155 @@
+
+.container-all-popup{
+  width: 100vw;
+  height: auto;
+  position: absolute;
+  z-index: 60;
+  top: 0;
+  left: 0;
+  animation-name: danger;
+  animation-duration: 7s;
+  opacity: 0%;
+}
+
+.global-container-popup-a{
+  width: 100vw;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: invert(1);
+  -moz-filter:invert(1);
+  -webkit-filter:invert(1);
+
+}
+.container-popup-a{
+  width: 80%;
+  height:100%;
+  background-color: whitesmoke;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  
+}
+.container-info{
+  width: 80vw;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+}
+.container-top-a{
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.container-top-a img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  max-height: 100%;
+  padding-top: 5%;
+
+
+}
+
+
+
+.container-bottom-a{
+  width: 100%;
+  height:100%;
+  background-color: #E26B4C;
+  border-radius:0px 10px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-bottom-a h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10vh;
+  width: 60vw;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.container-bottom-a p {
+  color: #191E3D;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2%;
+}
+
+.container-bottom-a button {
+border: solid 1px #191E3D;
+border-radius: 20px;
+padding-left: 9%;
+padding-right: 9%;
+padding-top: 1%;
+padding-bottom: 1%;
+margin-bottom: 5%;
+}
+.chargement-popup{
+  width: 100%;
+  height: 1vh;
+  background-color:#e2514c ;
+  margin: 0;
+  padding: 0;
+  border-radius:0px 0px 10px 10px;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+
+}
+
+
+
+.container-chargement{
+  width: 100%;
+  height: auto;
+  animation-name: danger-defile;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  transform-origin: right top  ;
+}
+
+
+
+@keyframes danger {
+  0%   {opacity: 0%; z-index: 60; top:0%;}
+  50%  {opacity: 100%; z-index: 60;top:10%;}
+  75%  {opacity: 100%; z-index: 60;top:10%;}
+  100% {opacity: 0%;z-index: 0;top:0%;}
+}
+
+
+
+
+
+
+
+@keyframes danger-defile{
+  0% {
+      transform: scaleX(0);
+      
+  }
+  100% {
+      transform: scaleX(1);
+  }
+ 
+  
+}

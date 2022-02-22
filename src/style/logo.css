@@ -1,0 +1,14 @@
+.container-logo{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.logo {
+  margin-top: 2%;
+  margin-left: 80%;
+  width: 20%;
+  max-width: 20%;
+  height: auto;
+  
+}

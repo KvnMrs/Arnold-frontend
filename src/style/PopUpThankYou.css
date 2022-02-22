@@ -1,0 +1,34 @@
+.animation{
+  opacity: 1;
+  padding-top: 5%;
+  position: absolute;
+  z-index: 100;
+  -webkit-animation: merci 5s ease-out;
+    -moz-animation: merci 5s ease-out;
+    -o-animation: merci 5s ease-out;
+    animation: merci 5s ease-out;
+}
+
+@keyframes merci {
+  0%   {opacity: 0; z-index: 100;padding-top: 0%;}
+  35%  {opacity: 1; z-index: 100;padding-top: 10%;}
+  100% {opacity: 0;z-index: 100;padding-top: 0%;}
+}
+
+@-webkit-keyframes merci {
+  0%   {opacity: 0; z-index: 100;padding-top: 0%;}
+  35%  {opacity: 1; z-index: 100;padding-top: 20%;}
+  100% {opacity: 0;z-index: 100;padding-top: 0%;}
+}
+
+@-moz-keyframes merci {
+  0%   {opacity: 0; z-index: 100;padding-top: 0%;}
+  35%  {opacity: 1; z-index: 100;padding-top: 20%;}
+  100% {opacity: 0;z-index: 100;padding-top: 0%;}
+}
+
+@-o-keyframes merci {
+  0%   {opacity: 0; z-index: 100;padding-top: 0%;}
+  35%  {opacity: 1; z-index: 100;padding-top: 20%;}
+  100% {opacity: 0;z-index: 100;padding-top: 0%;}
+}

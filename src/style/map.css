@@ -1,0 +1,63 @@
+.leaflet-pane {
+  z-index: 0;
+}
+
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  -moz-filter:invert(1);
+
+}
+
+.leaflet-touch.leaflet-control-layers.leaflet-touch.leaflet-bar {
+  border-style: none;
+}
+.leaflet-control.leaflet-bar {
+  border-style: none;
+}
+.leaflet-bottom.leaflet-right {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.leaflet-right .leaflet-control.leaflet-bar {
+  margin-right: 30px;
+}
+.leaflet-left .leaflet-control.leaflet-bar {
+  margin-bottom: 30%;
+  margin-left: 20px;
+}
+
+.leaflet-interactive {
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  -moz-filter:invert(1);
+
+}
+.notif{
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  -moz-filter:invert(1);
+
+}
+
+.bottom-nav{
+  filter: invert(1);
+}
+
+.container-botom-map{
+  top:85vh;
+}
+
+.map-bottom-bg{
+background-color:#191e3d;
+animation-name: color;
+animation-duration: 1.5s;
+
+}
+
+@keyframes color {
+  from {background-color:transparent;}
+  to{background-color:#191e3d;}
+}

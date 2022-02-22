@@ -1,0 +1,116 @@
+.container-signalcard{
+width: 20vw;
+height: 20vh;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content:space-between;
+align-items: center;
+border: 1px rgb(204, 204, 204) solid;
+border-radius: 5px;
+
+}
+
+
+
+.container-signalcard img{
+  width: auto;
+  margin-top: 20px;
+  height: 40%;
+}
+
+.container-name{
+  width: 20vw;
+  height: 40%;
+  background-color: #191E3D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px rgb(204, 204, 204) solid;
+}
+
+.container-name h2 {
+  color: white;
+text-align: center;
+padding:10px;
+font-size:12px;
+}
+
+.allcard{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0;
+  margin:0px;
+}
+
+.container-allcard{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  z-index: 100;
+  background-color: #191E3D;
+  padding: 0;
+  margin:0px;
+  padding-bottom: 10%;
+}
+
+.container-name-leger{
+  width: 20vw;
+  height: 40%;
+  background-color: #FDDD6A;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px rgb(204, 204, 204) solid;
+  color: white;
+  text-align: center;
+  padding:10px;
+  font-size:12px;
+}
+.container-name-modere{
+  width: 20vw;
+  height: 40%;
+  background-color: #E26B4C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px rgb(204, 204, 204) solid;
+  color: white;
+  text-align: center;
+  padding:10px;
+  font-size:12px;
+}
+
+.container-name-important{
+  width: 20vw;
+  height: 40%;
+  background-color: #AF3737;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  align-items: center;
+  border: 1px rgb(204, 204, 204) solid;
+  color: white;
+  text-align: center;
+  padding:10px;
+  font-size:12px;
+}

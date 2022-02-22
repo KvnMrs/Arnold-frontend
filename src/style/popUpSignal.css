@@ -1,0 +1,142 @@
+.leaflet-popup-content{
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  -moz-filter:invert(1);
+
+
+}
+.container-popup{
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container-top{
+  width: 50%;
+  height: 50%;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.container-top img {
+  display: flex;
+  max-width: 50%;
+  max-height: 50%;
+
+
+}
+
+.container-top p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.container-bottom{
+  width: 100%;
+  height:40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 224, 224);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.container-bottom h1 {
+  color: #191E3D;
+  font-weight: 600;
+  font-size: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+text-align: center;
+
+}
+
+.container-bottom p {
+  color: #191E3D;
+  font-weight: lighter;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2%;
+}
+
+.container-bottom button {
+border: solid 1px #191E3D;
+border-radius: 20px;
+padding-left: 9%;
+padding-right: 9%;
+padding-top: 1%;
+padding-bottom: 1%;
+margin-bottom: 5%;
+}
+
+.container-btn{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:3%;
+width: 100%;
+}
+.btn-conf{
+  color:#191E3D ;
+
+}
+.btn-term{
+  background-color: #191E3D;
+  color:white;
+}
+
+.leaflet-control button{
+filter: invert(1);
+-webkit-filter:invert(1);
+-moz-filter:invert(1);
+
+
+}
+
+.leaflet-marker-pane img{
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  -moz-filter:invert(1);
+
+
+}
+
+.leaflet-marker-pane div{
+  filter: invert(1);
+  -webkit-filter:invert(1);
+  -moz-filter:invert(1);
+
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+
+.leaflet-container a.leaflet-popup-close-button{
+  top: 5%;
+  right: 15%;
+}
+
+

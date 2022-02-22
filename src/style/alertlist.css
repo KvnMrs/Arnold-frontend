@@ -1,0 +1,48 @@
+.container-alertlist{
+  height: 100%;
+  width: auto;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  top: 100;
+  left: 0;
+  justify-content: center;
+  align-items: center; 
+  animation-name: alert;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.container-item{
+  overflow-y: scroll;
+}
+
+.puce-notif{
+  position: absolute;
+  background-color: rgb(218, 62, 62);
+  border-radius: 50%;
+  padding: 2px;
+  height: 20px;
+  width: 20px;
+  font-size: 12px;
+  color: white;
+  text-align: center;
+  align-items: center;
+  margin-right: 0.5%;
+  margin-top: 1%;
+}
+
+.level-red{
+  border-left: #AF3737 solid 5px;
+}
+.level-green{
+  border-left: #FDDD6A solid 5px;
+}
+.level-orange{
+  border-left: #E26B4C solid 5px;
+}
+
+@keyframes alert {
+  0% {top :100vh; height: 0%; z-index: 0;}
+  100% {top:0; height: 100%; z-index: 100;}
+}
+

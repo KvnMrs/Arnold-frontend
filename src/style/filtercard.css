@@ -1,0 +1,16 @@
+.card{
+  width: 70vw;
+  height: 50vh;
+  background-color: white;
+  padding-right: 7%;
+  padding-left: 7%;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 60;
+  top:30%;
+  left: 15%;
+}
+
+.no-card{
+  display:none;
+}
